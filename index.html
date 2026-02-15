@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Edad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <div class="inputs">
+        <div class="input-group">
+            <label>DÍA</label>
+            <input type="number" id="day" placeholder="DD" min="1" max="31">
+        </div>
+
+        <div class="input-group">
+            <label>MES</label>
+            <input type="number" id="month" placeholder="MM" min="1" max="12">
+        </div>
+
+        <div class="input-group">
+            <label>AÑO</label>
+            <input type="number" id="year" placeholder="YYYY">
+        </div>
+
+        <button id="calculate">
+            ↓
+        </button>
+    </div>
+
+    <hr>
+
+    <div class="result">
+        <p><span id="years">--</span> años</p>
+        <p><span id="months">--</span> meses</p>
+        <p><span id="days">--</span> días</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
