@@ -4,7 +4,7 @@ document.getElementById("calculate").addEventListener("click", function () {
     let month = parseInt(document.getElementById("month").value);
     let year = parseInt(document.getElementById("year").value);
 
-    // Validaciones básicas
+ 
     if (!day || !month || !year) {
         alert("Por favor completa todos los campos");
         return;
